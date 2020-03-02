@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:gRPC_Chat/pages/home_page.dart';
+import 'package:gRPC_Chat/pages/login_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -11,10 +11,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      initialRoute: HomePage.routeName,
-      routes: {
-        HomePage.routeName:(context)=>HomePage(),
-      },
+      home: LoginPage(),
     );
   }
 }
