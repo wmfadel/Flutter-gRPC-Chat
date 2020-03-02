@@ -1,6 +1,8 @@
 # gRPC_Chat
 
-A new Flutter project.
+Flutter chat app client using gRPC and gRPC + golang for backend server.
+
+the go server + go client can be found [here](https://github.com/wmfadel/golang-gRPC-Chat)
 
 ## Getting Started
 
